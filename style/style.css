@@ -1,0 +1,59 @@
+
+
+body{
+    overflow-x: hidden;
+}
+*{
+    background-color: #2A303C;
+    font-family: 'Roboto', sans-serif;
+}
+.font-contador{
+    color:#A6ADBB;
+    border-bottom: 2px solid #A6ADBB;
+    font-size: 2.5rem;
+}
+.counter-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 87vh;
+}
+.counter-value {
+    font-size: 10rem;
+    margin-bottom: 1rem;
+    color:#A6ADBB;
+}
+.counter-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-top: 2px solid #A6ADBB;
+}
+.counter-button {
+    width: 3rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color:#A6ADBB;
+    
+}
+.contorno{
+    width: 45%;
+    border: 2px solid #A6ADBB;
+    border-radius: 3px;
+}
+.row{
+    --bs-gutter-x: 0!important;
+}
+.width-b{
+    width: 50%;
+    font-size: 1.9rem;
+}
+.btn-primary{
+    --bs-btn-bg: none !important; 
+    --bs-btn-border-color: none !important;
+    --bs-btn-hover-bg: #5e5f62 !important;
+    --bs-btn-active-bg: none!important;
+}
